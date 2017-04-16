@@ -15,13 +15,5 @@ p = zeros(m, 1);
 %               You should set p to a vector of 0's and 1's
 %
 
-
-
-
-
-
-
-% =========================================================================
-
-
-end
+% predict value is H(theta), which is sigmoid(z) where z = theta'*X
+p = sigmoid(X * theta) >= 0.5
