@@ -17,3 +17,4 @@ p = zeros(m, 1);
 
 % predict value is H(theta), which is sigmoid(z) where z = theta'*X
 p = sigmoid(X * theta) >= 0.5
+end
